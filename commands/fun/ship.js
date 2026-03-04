@@ -56,11 +56,57 @@ module.exports = {
       // fun ship phrases
       const hearts = ['💖','💕','💘','💞','💓'];
       const heart = hearts[Math.floor(Math.random() * hearts.length)];
-      const phrases = [
-        `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nLooks promising!`,
-        `${nameOf(a)} x ${nameOf(b)} = ${love}%\nNot bad, keep flirting 😉`,
-        `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 75 ? 'A strong match ❤️' : love > 40 ? 'Could work 🤝' : 'Mostly chaos 😂'}`
-      ];
+const phrases = [
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nCupid is working overtime! 💘`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nSparks might fly! ✨`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 80 ? 'A perfect match! 💞' : love > 50 ? 'Looking good! 💖' : 'Might need extra magic 🪄'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nRomance alert! 🚨`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nFate seems interested 😏`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nCould be a legendary duo! 🏆`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 70 ? 'Hearts aligned! ❤️' : love > 40 ? 'Needs work 🛠️' : 'Chaos incoming 😂'}`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nLove vibes detected! 🌟`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nA match made in memes 😆`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 85 ? 'Epic chemistry! 🔥' : love > 60 ? 'Promising! 💕' : 'Uh-oh… 😬'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nThe stars are aligned! ✨`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nLove meter: ${love}/100 ❤️`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nFlirt mode: ON 😏`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 75 ? 'Destined for love! 💖' : love > 50 ? 'Could be interesting! 😎' : 'Tread carefully! ⚠️'}`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nThe chemistry is real! 🔥`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nRomance forecast: ${love}% chance of sparks! ⚡`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 80 ? 'Couple goals! 💕' : love > 55 ? 'Not bad! 😍' : 'Better luck next time! 😂'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nCupid approves! 🏹`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nFeeling the love vibes! 💓`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nCould cause heart palpitations! ❤️‍🔥`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 90 ? 'True love alert! 💖' : love > 60 ? 'Sweet potential! 🌸' : 'Better keep friends! 🤪'}`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nRomantic chaos incoming! 😍`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nCould be the next power couple! 💪`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 70 ? 'Hearts in sync! 💘' : love > 40 ? 'Needs some magic ✨' : 'Comedy duo potential 😂'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nSwoon factor: high! 💖`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nLove-o-meter skyrocketing! 🚀`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nFeels like a rom-com scene 🎬`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 85 ? 'Match made in heaven! 😇' : love > 50 ? 'Could be sweet! 🍭' : 'Prepare for laughs! 😂'}`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nLove potion activated! 🧪`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nRomantic tension detected! ⚡`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 75 ? 'Soulmates? Maybe! 💞' : love > 40 ? 'Potential brewing! ☕' : 'Just friends vibes 😂'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nHeart meters rising! ❤️`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nCould break the love charts! 📈`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nFlirt alert! 🚨`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 80 ? 'Love at first sight! 😍' : love > 50 ? 'Things are heating up! 🔥' : 'Comedy vibes only! 😂'}`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nRomance levels rising! 💖`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nPotential couple vibes detected 💕`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 90 ? 'Legendary couple! 🌟' : love > 60 ? 'Looking cute together! 😘' : 'Friends first! 🤗'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nHeartbeats synchronized! 💓`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nLove forecast: 🌈 bright with sparks!`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nCould be a fairy tale romance! 🏰`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 75 ? 'Destiny calling! 💞' : love > 45 ? 'Could be fun! 😄' : 'Comedy gold! 😂'}`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}% ${heart}\nPrepare for butterflies! 🦋`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nRomantic energy levels: high! ⚡`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 80 ? 'Hearts aligned! 💖' : love > 50 ? 'Sweet potential! 🌸' : 'Better keep distance 😂'}`,
+    `${nameOf(a)} ❤ ${nameOf(b)} = ${love}%\nCupid says yes! 🏹`,
+    `${nameOf(a)} + ${nameOf(b)} = ${love}%\nCould be love at first meme! 😆`,
+    `${nameOf(a)} x ${nameOf(b)} = ${love}%\nRomance-o-meter: ${love}% 🔥`,
+    `${nameOf(a)} & ${nameOf(b)} Compatibility: ${love}%\n${love > 90 ? 'True love vibes! 💕' : love > 60 ? 'Promising duo! 😍' : 'Comedy pairing 😂'}`
+];
 
       const out = phrases[Math.floor(Math.random() * phrases.length)];
 
