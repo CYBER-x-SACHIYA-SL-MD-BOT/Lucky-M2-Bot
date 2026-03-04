@@ -110,13 +110,6 @@ Add it to your `config.js`:
 ```js
 sessionID: 'LuckyM2-H4....'
 ```
-
-Or set it as an environment variable:
-
-```
-SESSION_ID=LuckyM2-H4....
-```
-
 ---
 
 ## 🛠 Local Development Setup
@@ -138,16 +131,10 @@ npm install
 
 Edit `config.js`:
 
-**Option A — Use Session String**
+**Use Session String**
 
 ```js
 sessionID: 'LuckyM2-H4....'
-```
-
-**Option B — Use QR Login**
-
-```js
-sessionID: ''
 ```
 
 ### Step 4: Start the Bot
@@ -155,9 +142,6 @@ sessionID: ''
 ```bash
 node index.js
 ```
-
-* If `sessionID` is empty → QR will appear in terminal
-* If `sessionID` is set → Bot logs in automatically
 
 ---
 
@@ -178,7 +162,12 @@ You can deploy Lucky M2 Bot on:
   <img src="https://img.shields.io/badge/Deploy%20on-Katabump-orange?style=for-the-badge">
 </a>
 
+<a href="https://bot-hosting.net/?aff=1384907250438770829" target="_blank">
+  <img src="https://img.shields.io/badge/Deploy%20on-bot--hosting.net-blue?style=for-the-badge">
+</a>
 </div>
+
+
 
 ### 📺 Video Tutorial
 
@@ -196,11 +185,11 @@ Stay connected and receive updates:
 
 <div align="center">
 
-<a href="https://t.me/+3QhFUZHx-nhhZmY1" target="_blank">
+<a href="https://t.me/luckytechhub" target="_blank">
   <img src="https://img.shields.io/badge/Join-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white">
 </a>
 
-<a href="https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A" target="_blank">
+<a href="https://whatsapp.com/channel/0029VbAnuvT6RGJ9Qrf3NJ0L" target="_blank">
   <img src="https://img.shields.io/badge/Join-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
