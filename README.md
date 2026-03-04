@@ -205,22 +205,6 @@ Stay connected and receive updates:
 
 ---
 
-# ☕ Support the Developer
-
-If you find this project valuable and want to support ongoing development:
-
-<div align="center">
-
-<a href="https://buymeacoffee.com/mruniquehacker" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Developer-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white">
-</a>
-
-<br><br>
-
-<img src="utils/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200">
-
-</div>
-
 Your support helps maintain and improve this open-source project.
 
 ---
